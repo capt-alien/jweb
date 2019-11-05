@@ -5,12 +5,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Douge </title>
+<title>New Kitty</title>
 </head>
 
 <body>
-	<p>You created a <c:out value ="${dog.breed}"/>!</p>
-	<c:out value="${dog.showAffection()}"/>
+	<p>You created a <c:out value ="${cat.breed}"/>!</p>
+	<c:out value="${cat.showAffection()}"/>
 	
 	
 </body>
