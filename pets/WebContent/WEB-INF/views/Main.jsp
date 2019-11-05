@@ -4,20 +4,20 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Pets-R-Us</title>
 </head>
 <body>
 <h1>Welcome to Pets-R-Us</h1>
 
 <h2>Make a dog!</h2>
-<form action="animals/dog" method="post">
+<form action="/PetsRus/DisplayDog" method="post">
 	Name: <input type="text" name="name"><br>
 	Breed: <input type="text" name="breed"><br>
 	Weight (lb): <input type="number" name="weight"><br>
 	<input type="submit">
 </form>
 <h2>Make a cat!</h2>
-<form action="animals/cat" method="post">
+<form action="/PetsRus/DisplayCat" method="post">
 	Name: <input type="text" name="name"><br>
 	Breed: <input type="text" name="breed"><br>
 	Weight (lb): <input type="number" name="weight"><br>

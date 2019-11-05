@@ -1,5 +1,5 @@
 package com.pets.models;
 
-public class Pet {
-
+public interface Pet {
+	String showAffection();
 }
